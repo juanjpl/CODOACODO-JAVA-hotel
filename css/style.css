@@ -1,0 +1,218 @@
+/* COLORS
+
+
+background-color:;#519901;
+background-color:#e9e92d;
+background-color:#e5f2f3;
+background-color:#f6f9ca;
+background-color:#f1e94d;
+background-color:#91ab6d;
+background-color:#e8e2cf;
+background-color:#65b2b8;
+background-color:#294653;
+background-color:#041793 ;
+background-color:#17a9fa ;
+background-color:#bfe1ff ;
+background-color:#fed513;
+background-color:#d19402 ;
+background-color:#ffdf30 ;
+background-color:#ffeaa4 ;
+background-color:#80a300;
+background-color:#dd8200;
+background-color:#f3b93c;
+background-color:#ffdf30 ;
+
+*/
+
+/* fuentes 
+
+font-family: 'Noto Sans KR', sans-serif; LOGO SUNSET
+font-family: 'Open Sans Condensed', sans-serif; LOGO HOTEL
+
+
+font-family: 'Roboto', sans-serif; HIPERVINCULOS
+
+
+
+font-family: 'Lato', sans-serif;    TITULO 1
+font-family: 'Oswald', sans-serif;  SUBTITULO 1
+font-family: 'Roboto', sans-serif;  TEXTO 1
+
+
+font-family: 'Oswald', sans-serif;  TITULO 2
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Raleway', sans-serif; TEXTO 2
+
+*/
+
+
+
+
+/***************** CAJA DE HERRAMIENTAS  *******************/
+
+.box-flex-column{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.box-flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.contenedor-grande{
+    margin:0rem 1.5rem;
+}
+.text-center{
+    text-align: center;
+}
+
+.titulo1 {
+   
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif; 
+}
+
+.subtitulo1{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif; 
+    margin:0rem 1.5rem;
+}
+
+.texto1{
+    
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/***************** Navegacion principal  *******************/
+.logo-hotel p{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:white;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+   
+}
+
+.logo-hotel span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.logo-links li{
+ 
+    list-style: none;   
+}
+
+.logo-links >li a{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-right: 40px;
+    
+}
+
+.boton-singin {
+    padding: 1rem 2rem;
+    background-color: rgb(139, 219, 219);
+}
+
+.boton-login {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px  rgb(139, 219, 219) solid;
+  
+}
+
+.navegacion-principal {
+    margin:1.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera{
+    height:100vh;
+    background-image: url(../img/cabecera-photo.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+}
+
+.texto-presentacion{
+    margin:1rem 2rem;
+  width: 60%;
+    
+}
+
+.texto-presentacion h2{
+    color:#ffffff;
+
+} 
+
+.texto-presentacion span{
+    color:#ffffff;
+    font-size: 4rem;
+    margin:0rem 1.5rem;
+  
+}
+
+.texto-presentacion p{
+    color:#ffffff;
+    margin-bottom: 3rem;
+
+}
+
+.texto-presentacion li{
+    list-style: none;
+  
+}
+
+.texto-presentacion >li a{
+    color:#ffffff;
+    text-decoration: none;
+   
+}
+
+
+.contenedor-formulario{
+    justify-content:space-around;
+    align-items: center;
+    margin-top:3rem;
+}
+
+
+
+.form-entrada{
+    justify-content:space-around;
+    align-items: center;
+    width:70%;
+    padding:1.5rem 0rem;
+    background-color: rgba(255,255,255,0.2); 
+}
+
+.form-entrada h2{
+    color:#dd8200;
+    margin:1rem 0rem;
+}
+
+.form-entrada label{
+   
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.form-entrada .boton-check{
+    color:white;
+    background-color:cornflowerblue;
+    border:0 ;
+    margin-left: 40px;
+    padding:1rem 2rem;
+}
+
